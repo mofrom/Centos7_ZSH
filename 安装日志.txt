@@ -1,0 +1,97 @@
+[root@S1 zsh]# ./install.sh 
+【导航】Linux日常化 -> 系统|其他
+
+	 1) ✔  安装zsh && ohmyzsh		 【小工具】 ✔  
+	 2) ✔  安装主题				 7) ✔  待添加
+	 3) ✔  默认请回车			 8) ✔  待添加
+	 4) ✔  待添加				 9) ✔  待添加
+	 5) ✔  待添加	       			 10) ✔  待添加
+	 6) ✔  待添加 				 11) ✔  待添加
+	 0) ✘  返回 ◀◀
+	
+ [DONE] 
+请输入一个选项:1
+安装zsh && ohmyzsh
+未安装软件包 zsh 
+开始安装zsh . . .  已加载插件：fastestmirror, langpacks
+Loading mirror speeds from cached hostfile
+ * base: mirrors.shu.edu.cn
+ * epel: mirrors.tuna.tsinghua.edu.cn
+ * extras: mirrors.shu.edu.cn
+ * updates: mirrors.163.com
+extras                                                    | 3.4 kB  00:00:00     
+updates                                                   | 3.4 kB  00:00:00     
+(1/2): extras/7/x86_64/primary_db                         | 187 kB  00:00:00     
+(2/2): updates/7/x86_64/primary_db                        | 5.2 MB  00:00:01     
+epel/x86_64/primary                                       | 3.6 MB  00:00:31     
+epel                                                                 12685/12685
+正在解决依赖关系
+--> 正在检查事务
+---> 软件包 zsh.x86_64.0.5.0.2-28.el7 将被 安装
+--> 解决依赖关系完成
+
+依赖关系解决
+
+=================================================================================
+ Package        架构              版本                     源               大小
+=================================================================================
+正在安装:
+ zsh            x86_64            5.0.2-28.el7             base            2.4 M
+
+事务概要
+=================================================================================
+安装  1 软件包
+
+总下载量：2.4 M
+安装大小：5.6 M
+Downloading packages:
+zsh-5.0.2-28.el7.x86_64.rpm                               | 2.4 MB  00:00:01     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+警告：RPM 数据库已被非 yum 程序修改。
+** 发现 5 个已存在的 RPM 数据库问题， 'yum check' 输出如下：
+bt-php-5.4.45-1.el7.centos.x86_64 有缺少的需求 libiconv
+bt-php-5.4.45-1.el7.centos.x86_64 有缺少的需求 libmcrypt
+bt-php-5.4.45-1.el7.centos.x86_64 有缺少的需求 libmcrypt.so.4()(64bit)
+bt-php-5.4.45-1.el7.centos.x86_64 有缺少的需求 mcrypt
+bt-php-5.4.45-1.el7.centos.x86_64 有缺少的需求 mhash
+  正在安装    : zsh-5.0.2-28.el7.x86_64                                      1/1 
+  验证中      : zsh-5.0.2-28.el7.x86_64                                      1/1 
+
+已安装:
+  zsh.x86_64 0:5.0.2-28.el7                                                      
+
+完毕！
+zsh-5.0.2-28.el7.x86_64
+zsh已成功安装 . . .  开始安装oh-my-zsh . . . 
+Cloning Oh My Zsh...
+正克隆到 '/root/.oh-my-zsh'...
+remote: Counting objects: 898, done.
+remote: Compressing objects: 100% (754/754), done.
+remote: Total 898 (delta 25), reused 731 (delta 17), pack-reused 0
+接收对象中: 100% (898/898), 595.72 KiB | 359.00 KiB/s, done.
+处理 delta 中: 100% (25/25), done.
+Looking for an existing zsh config...
+Using the Oh My Zsh template file and adding it to ~/.zshrc
+Time to change your default shell to zsh!
+Changing shell for root.
+Shell changed.
+         __                                     __   
+  ____  / /_     ____ ___  __  __   ____  _____/ /_  
+ / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \ 
+/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / / 
+\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/  
+                        /____/                       ....is now installed!
+
+
+Please look over the ~/.zshrc file to select plugins, themes, and options.
+
+p.s. Follow us at https://twitter.com/ohmyzsh.
+
+p.p.s. Get stickers and t-shirts at https://shop.planetargon.com.
+
+➜  zsh zsh
+➜  zsh 
+➜  zsh 
